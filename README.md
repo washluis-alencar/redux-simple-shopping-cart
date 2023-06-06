@@ -60,7 +60,7 @@ The project structure follows a standard React project layout with the following
 - `src/App.js`: The main entry point of the application where components are rendered and the Redux store is configured.
 - `src/index.js`: The entry point for rendering the React app and mounting it into the HTML document.
 
-## Contributing
+## Contributing 
 
 Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
