@@ -1,0 +1,1 @@
+# redux-simple-shopping-cart
