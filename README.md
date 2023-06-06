@@ -1,34 +1,84 @@
-# Learning Redux Toolkit
-This is the repository for the LinkedIn Learning course `Learning Redux Toolkit`. The full course is available from [LinkedIn Learning][lil-course-url].
+# React Shopping Cart with Redux Toolkit
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+This is a sample React application that demonstrates the implementation of a basic shopping cart using Redux and Redux Toolkit. The project showcases how to manage application state using Redux Toolkit, a powerful and opinionated library for efficient Redux development.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+## Features
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+- Add products to the cart
+- Remove products from the cart
+- Update the quantity of products in the cart
+- Calculate the total price of items in the cart (next releases)
+- Store the cart state using Redux
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+## Technologies Used
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+- React: A JavaScript library for building user interfaces
+- Redux: A predictable state container for JavaScript apps
+- Redux Toolkit: An opinionated, efficient Redux development toolset
+- HTML and CSS: For structuring and styling the application
+- JavaScript: The programming language used for application logic
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+## Getting Started
 
+Follow the steps below to get a local copy of the project up and running on your machine.
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Prerequisites
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+- Node.js: Make sure you have Node.js installed on your system. You can download it from [Node.js website](https://nodejs.org/).
 
+### Installation
+
+1. Clone the repository:
+   ```shell
+   git clone https://github.com/washluis-alencar/redux-simple-shopping-cart.git
+   ```
+
+2. Navigate to the project directory:
+   ```shell
+   cd redux-shopping-cart
+   ```
+
+3. Install the dependencies:
+   ```shell
+   npm install
+   ```
+
+4. Start the development server:
+   ```shell
+   npm start
+   ```
+
+5. Open your web browser and visit `http://localhost:3000` to see the application in action.
+
+## Project Structure
+
+The project structure follows a standard React project layout with the following important files and directories:
+
+- `src/components`: Contains reusable UI components.
+- `src/services`: Contains the API call to external backend app.
+- `src/store`: Contains the Redux slice for managing the cart state, including actions, reducers, and thunks.
+- `src/App.js`: The main entry point of the application where components are rendered and the Redux store is configured.
+- `src/index.js`: The entry point for rendering the React app and mounting it into the HTML document.
+
+## Contributing
+
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+This project was inspired by the idea of creating a simple shopping cart application to demonstrate the usage of Redux Toolkit in a React project.
+
+## Resources
+
+- [React documentation](https://reactjs.org/docs)
+- [Redux documentation](https://redux.js.org/introduction/getting-started)
+- [Redux Toolkit documentation](https://redux-toolkit.js.org/introduction/getting-started)
+- [Create React App documentation](https://create-react-app.dev/docs/getting-started)
+
+## Contact
+
+For any questions or inquiries, please contact [wluisalencar@gmail.com](mailto:wluisalencar@gmail.com).
